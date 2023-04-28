@@ -14,14 +14,7 @@
   }
 
 .cover {
-    /* position: absolute; */
-    /* background-attachment: fixed;
-    top: 0; */
-    /* background-image: url('/public/img/background.jpeg'); */
     height: 100vh;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     position: fixed;
     left:0;
     top:0;
@@ -41,7 +34,7 @@
     background-color: white;
     height: 16vh;
     width: 100vw;
-    padding-top: 30px;
+    padding-top: 2%;
 }
 
 .header-title {
@@ -63,8 +56,8 @@
 
 .cover-text {
     position: absolute;
-    top: 56%;
-    left:39%;
+    top: 56vh;
+    left:41vw;
     height: 44vh;
     text-align: center;
     color: white;
