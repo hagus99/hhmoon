@@ -18,7 +18,9 @@ function Main() {
                 crossorigin="anonymous"
             />
             {/* <div className="cover"></div> */}
+            <div className="cover-div">
             <img className="cover" src="img/background.jpeg" alt="cover" />
+            </div>
             <div className="section-1">
                 <div className="header">
                     <div className="header-title">HHMOON</div>

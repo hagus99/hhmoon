@@ -6,22 +6,33 @@
     letter-spacing: 0;
     font-family: "Montserrat";
 }
+.cover-div {
+    position: relative;
+    height: 100vh;
+    clip-path: inset(0);
+    z-index: -1;
+  }
 
 .cover {
-    position: absolute;
-    background-attachment: fixed;
-    top: 0;
-    z-index: -1;
+    /* position: absolute; */
+    /* background-attachment: fixed;
+    top: 0; */
     /* background-image: url('/public/img/background.jpeg'); */
     height: 100vh;
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    position: fixed;
+    left:0;
+    top:0;
     object-fit: cover;
     width: 100vw;
     overflow: hidden;
+    z-index: -1;
 }
 .header {
+    position: absolute;
+    top:0px;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -30,7 +41,7 @@
     background-color: white;
     height: 16vh;
     width: 100vw;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .header-title {
@@ -51,7 +62,9 @@
 }
 
 .cover-text {
-    margin-top: 40vh;
+    position: absolute;
+    top: 56%;
+    left:39%;
     height: 44vh;
     text-align: center;
     color: white;
