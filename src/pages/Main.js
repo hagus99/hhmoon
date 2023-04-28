@@ -17,7 +17,8 @@ function Main() {
                 integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
                 crossorigin="anonymous"
             />
-            <div className="cover"></div>
+            {/* <div className="cover"></div> */}
+            <img className="cover" src="img/background.jpeg" alt="cover" />
             <div className="section-1">
                 <div className="header">
                     <div className="header-title">HHMOON</div>

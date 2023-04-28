@@ -12,11 +12,12 @@
     background-attachment: fixed;
     top: 0;
     z-index: -1;
-    background-image: url('/public/img/background.jpeg');
+    /* background-image: url('/public/img/background.jpeg'); */
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
     width: 100vw;
     overflow: hidden;
 }
