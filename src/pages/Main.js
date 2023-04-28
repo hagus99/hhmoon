@@ -101,10 +101,9 @@ function Main() {
                         <div className="cv-email">hhmoon@handong.ac.kr</div>
                     </div>
                     <div className="cv-right-detail">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum dictum congue. Vivamus sed porta risus, ut laoreet leo. Aliquam aliquam id diam at tincidunt. Ut
-                        adipiscing, mauris et bibendum consequat, nisl nulla vulputate turpis, ut hendrerit elit eros vel leo. Ut eu venenatis lectus. Mauris libero sem, sodales in sollicitudin at,
-                        iaculis eget turpis. Donec sodales lacus dolor, a dignissim dolor cursus et. Donec at vulputate massa, non consequat libero. Maecenas vehicula orci sit amet est facilisis
-                        eleifend. Ut bibendum et est a aliquet. Integer egestas egestas leo a luctus.
+                        M.S. Student, Engineering Systems Design Laboratory<br/><br/> 
+
+Hahyun Moon is a M.S. student at the ESDL. She graduated from Handong Global University with a B.S. in the School of Computer Science and Electrical Engineering. She is currently working on the project titled "Development of air traffic management and decision support systems for advanced air mobility operations in South Korea" and sponsored by the NRF research grant.
                     </div>
                     <div className="cv-right-title">Skills</div>
                     <div className="cv-right-title">Languages</div>

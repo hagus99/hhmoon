@@ -12,7 +12,7 @@
     background-attachment: fixed;
     top: 0;
     z-index: -1;
-    background-image: url(../img/background.jpeg);
+    background-image: url('/public/img/background.jpeg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -262,7 +262,7 @@ a:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .cv {
         display: flex;
         flex-direction: column-reverse;
@@ -285,8 +285,11 @@ a:hover {
         display:none;
     }
     .footer-right{
-        text-align: center;
-        
+        text-align: center !important;
+        margin-right: 20px;
+    }
+    .footer-wrapper{
+        justify-content: center;
     }
     .footer-add, .footer-email{
         margin-top:2px;
