@@ -2,6 +2,8 @@ import "../assets/css/Main.css";
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 
+
+
 function Main() {
     const inputForm = useRef();
     const onMoveToForm = () => {
@@ -10,6 +12,8 @@ function Main() {
 
     return (
         <div className="Main">
+        
+
             <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"></link>
             <link
                 rel="stylesheet"
@@ -17,11 +21,21 @@ function Main() {
                 integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
                 crossorigin="anonymous"
             />
-            {/* <div className="cover"></div> */}
-            <div className="cover-div">
-            <img className="cover" src="img/background.jpeg" alt="cover" />
-            </div>
             <div className="section-1">
+                <div className="cover-div">
+                    <img className="cover" src="img/background.jpeg" alt="cover" />
+                    <div className="cover-text">
+                        <div className="cover-text-top">Welcome to Explore</div>
+                        <h1>HAHYEON MOON</h1>
+                        <div className="cover-text-bottom">
+                            For the Spirit God gave us does not make us timid, <br />
+                            but gives us power, love, and self-discipline.
+                        </div>
+                        <div class="scroll-button-wrapper" onClick={onMoveToForm}>
+                            <div class="scroll-button"></div>
+                        </div>
+                    </div>
+                </div>
                 <div className="header">
                     <div className="header-title">HHMOON</div>
                     <div className="menu-bar">
@@ -36,22 +50,17 @@ function Main() {
                         </Link>
                     </div>
                 </div>
-                <div className="cover-text">
-                    <div className="cover-text-top">Welcome to Explore</div>
-                    <h1>HAHYEON MOON</h1>
-                    <div className="cover-text-bottom">
-                        For the Spirit God gave us does not make us timid, <br />
-                        but gives us power, love, and self-discipline.
-                    </div>
-                    <div class="scroll-button-wrapper" onClick={onMoveToForm}>
-                        <div class="scroll-button"></div>
-                    </div>
-                </div>
+                
             </div>
 
             <div className="cv" ref={inputForm}>
                 <div className="cv-box cv-left">
                     <div className="cv-left-title">Experiences</div>
+                    <div className="cv-left-subtitle">
+                        <div>Engineering Systems Design Laboratory</div>
+                        <div>2023 - Present</div>
+                    </div>
+                    <div className="cv-left-detail">Research Interests: Machine Learning, Optimization, Advance Air Mobility </div>
                     <div className="cv-left-subtitle">
                         <div>Wep and App Lab</div>
                         <div>2020 - 2022</div>
@@ -106,7 +115,7 @@ function Main() {
                     <div className="cv-right-detail">
                         M.S. Student, Engineering Systems Design Laboratory<br/><br/> 
 
-Hahyun Moon is a M.S. student at the ESDL. She graduated from Handong Global University with a B.S. in the School of Computer Science and Electrical Engineering. She is currently working on the project titled "Development of air traffic management and decision support systems for advanced air mobility operations in South Korea" and sponsored by the NRF research grant.
+I am a M.S. student at the ESDL. I graduated from Handong Global University with a B.S. in the School of Computer Science and Electrical Engineering. I am currently working on the project titled "Development of air traffic management and decision support systems for advanced air mobility operations in South Korea" and sponsored by the NRF research grant.
                     </div>
                     <div className="cv-right-title">Skills</div>
                     <div className="cv-right-title">Languages</div>

@@ -6,11 +6,18 @@
     letter-spacing: 0;
     font-family: "Montserrat";
 }
+
+.Main{
+    min-width: 300px;
+}
+
 .cover-div {
-    position: relative;
     height: 100vh;
     clip-path: inset(0);
     z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 .cover {
@@ -24,6 +31,7 @@
     z-index: -1;
 }
 .header {
+    min-width: 300px;
     position: absolute;
     top:0px;
     display: table-cell;
@@ -55,9 +63,7 @@
 }
 
 .cover-text {
-    position: absolute;
-    top: 56vh;
-    left:41vw;
+    margin-top: 35rem;
     height: 44vh;
     text-align: center;
     color: white;
@@ -71,7 +77,6 @@
 }
 .cv {
     background-color: white;
-    /* height: 100vh; */
     width: 100vw;
     display: grid;
     grid-template-columns: 55% 45%;
@@ -275,6 +280,9 @@ a:hover {
         flex-direction: column-reverse;
         padding:20px;
 
+    }
+    .cover-text {
+        margin-top: 25rem;
     }
     .cv-right {
         padding: 0px;
